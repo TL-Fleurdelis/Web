@@ -1,0 +1,376 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+html{ 
+    background: #e1e1e1;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+div{
+    display: block;
+}
+::marker{
+    display: none !important;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+li{
+    font-family: 'gothambold',sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+#main {
+    max-width: auto;
+    margin: auto auto;
+    font-family: 'gothamlight';
+}
+
+#header .header__footer{
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#header .header__img {
+    margin-top:51px;
+    margin-right:20px;
+    margin-left:20px;
+    text-align: center;
+} 
+#header .header__title{
+    padding : 76px 0 0;
+}
+#header .header__title li{
+    font-size: 34.08px;
+    letter-spacing: 8px;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'Gotham Light', sans-serif;
+    font-weight:lighter;
+    letter-spacing: 8px; /*Khoảng cách của từng con chữ */
+}
+
+#content{
+    color:#fff;
+}
+.content__header{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'gothambold',sans-serif;
+    padding-top: 53px;
+    letter-spacing: 6px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    height:203;
+    width: 755;
+    background:url(../img/footer.jpg)
+}
+.container__store{
+    text-align: center;
+    background: url(../img/list_img.png);
+}
+.container__store,
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    padding-top:60px;
+    padding-left:30px;
+    padding-right:30px;    
+    background: url(../img/list_img.png);
+}
+.container__store .store__album .list__title,
+.container .container__item .list__title{
+    font-size:23px;
+    font-weight:bold;
+    list-style-type: disc;
+    color:aqua;
+
+}
+.container__store .store__album .list__title{
+    color:black;
+    text-align:center;
+    text-transform:uppercase;
+    font-size:21px;
+    font-family: 'gothambold',sans-serif;
+
+}
+.container__store .store__album li{
+    text-align:center;
+    color:black;
+    list-style-type: none;
+}
+.container .container__item li {
+    list-style-type:disc;
+    margin-left:16px;
+    padding-left:12px;
+    margin-bottom:20px;
+}
+.container .container__item .note__item{
+    font-size:21px;
+    font-weight: bold;
+    color:white;
+}
+
+.container p{
+    padding-left:12px;
+    font-size:14px;
+}
+.btn{
+    font-size:30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    padding: 10px 36px;
+    font-family: 'Gotham Light', sans-serif;
+    transition: opacity 0.3s ease-in-out;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    text-align:center;
+    margin:auto;
+}
+.btn:hover{
+    opacity:0.5;
+}
+.btn--footer{
+    font-size:35px;
+    width: 370px;
+    height: 65px;
+    padding: 0 80px;
+    line-height: 61px;
+    font-weight: bold;
+    
+}
+.btn--footer--band{
+    font-size:27px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 0 32px;
+    border: 2px solid #fff;
+    /* height: 60px; */
+    line-height: 60px;
+}
+.btn--buy{
+    font-size:18px;
+    width: 226px;
+    height:52px;
+    padding-left:48px;
+    padding-top:16px;
+    letter-spacing: 5.5px;
+    border-color:black;
+    color:black;
+    background-color:transparent;
+    font-weight:800;
+    text-align: center;
+    margin-top:20px;
+}
+.btn--buy:hover{
+    opacity:0.3;
+}
+.btn--shop {
+    letter-spacing:12px;
+    width:200px;
+}
+.btn--stream{
+    margin-top:6px;
+}
+.center-btn{
+    text-align: center;
+    padding:42px;
+    background:url(../img/footer.jpg);
+
+}
+.content__footer{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 28px;
+    background: #000;
+    letter-spacing: 8px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Gotham Light', sans-serif;
+    font-weight:lighter;
+    letter-spacing: 0.1px; /*Khoảng cách của từng con chữ */
+    padding:43px 30px;
+}
+.container__store {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    padding: 100px 50px;
+    background: #e1e1e1;
+}
+.container__store .store__album{
+    width:50%;
+    height:50%;
+}
+.vinil-box-set-img{
+
+}
+.deluxe-cd-img{
+    margin-top:176px;
+}
+.digital-download-img {
+
+}
+.collection-img {
+    width: 500px;
+    height: 500px;
+}
+.band-img{
+    width: 100%;
+}
+.store__album ul{
+    padding-top: 12px;
+
+}
+.store__album li{
+    padding-bottom: 12px;
+    font-size:17px;
+    list-style-type: disc;
+}
+.store__album p {
+    font-style: italic;
+}
+#footer{
+    background: url(../img/list_img.png);
+    color:#fff;
+    margin: auto;
+    
+}
+#footer .footer__logo-band{
+    text-align: center;
+    margin: auto;
+}
+#footer .footer__logo-band .logo-img{
+    width: 86px;
+    height: 86px;
+    margin-top:24px;
+}
+#footer .footer__menu{
+    margin-right:30px;
+}
+#footer .footer__menu ul{
+    text-align: center;
+}
+#footer .footer__menu li{
+    display: inline-block;
+    padding:14px;
+    font-size:14px;
+}
+#footer .footer__menu li:hover{
+    opacity:0.3;
+    cursor:pointer;
+}
+#footer .footer__menu li:nth-child(4){
+    opacity: 1;
+    cursor: default;
+}
+#footer .footer__menu .terms{
+    text-decoration: underline;
+}
+.footer__input--email{
+    border: none;
+    background-color: transparent;
+    color:white;
+    font-size:12px;
+    text-transform: uppercase;
+}
+::placeholder{
+    color:#fff;
+    text-align: left;
+    text-transform: uppercase;
+}
+.ti-arrow-right--modify {
+}
+.footer__social-list{
+    font-size:24px;
+    text-align: center;
+    padding-top:32px;
+
+}
+.footer__social-list a{
+   font-size:24px;
+   margin:12px;
+   color:#fff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-family: 'Gotham Light', sans-serif;
+}
+.footer__social-list a:hover{
+    opacity:0.3;
+    
+}
+#footer .footer__note{
+    padding:64px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gotham Light', sans-serif;
+    color:#fff;
+    font-size:11px;
+}
+#footer .footer__note a{
+
+    color:#fff;
+}
+#footer .footer__note a:hover{
+    opacity: 0.6;
+}
+#footer .footer__note .footer--reverse p{
+    padding:24px;
+}
+#footer .footer__menu .terms{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Gotham Light', sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+#footer .footer__menu .terms:hover{
+    opacity: 0.8;
+}
+#footer .footer__menu .terms--content{
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 15px;
+    max-width: 490px;
+    text-align: left;
+    margin: 10px;
+
+    top: 25px;
+    right: 0;
+    background: #000;
+    padding: 10px;
+    text-align: justify;
+    margin:auto;
+    position: relative;
+}
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
